@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Safira Estratégia de Expansão Digital | Diagnóstico</title>
+  <meta name="description"
+    content="Descubra como expandir sua presença digital com estratégia. Diagnóstico rápido e gratuito por Amanda Loba." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="/src/style.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+</head>
+
+<body>
+
+  <!-- NAV | white clean -->
+  <nav id="main-nav"
+    style="position:fixed; top:0; left:0; right:0; z-index:50; background:#ffffff; border-bottom: 1px solid rgba(0,0,0,0.06);">
+    <div
+      style="max-width:1100px; margin:0 auto; padding:0 20px; height:72px; display:flex; align-items:center; justify-content:space-between;">
+      <a href="#inicio">
+        <img src="/logo-safira.png" alt="Safira Estratégia de Expansão Digital" style="height:40px; width:auto;" />
+      </a>
+      <div class="nav-desktop">
+        <a href="#inicio" class="nav-link active">Início</a>
+        <a href="#para-quem" class="nav-link">Para quem é</a>
+        <a href="#etapas" class="nav-link">Causas</a>
+        <a href="#diagnostico" class="nav-link">Diagnóstico</a>
+      </div>
+      <button id="mobile-menu-btn" style="color:#545454; background:none; border:none; cursor:pointer;">
+        <svg style="width:24px; height:24px;" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+      </button>
+    </div>
+    <div id="mobile-menu" style="background:#ffffff; border-top:1px solid rgba(0,0,0,0.06); padding:0 20px 16px;">
+      <div style="display:flex; flex-direction:column; gap:12px; padding-top:12px; font-size:15px; color:#545454;">
+        <a href="#inicio" style="padding:6px 0; font-weight:700; color:#545454; text-decoration:none;">Início</a>
+        <a href="#para-quem" style="padding:6px 0; color:#545454; text-decoration:none;">Para quem é</a>
+        <a href="#etapas" style="padding:6px 0; color:#545454; text-decoration:none;">Causas</a>
+        <a href="#diagnostico" style="padding:6px 0; color:#545454; text-decoration:none;">Diagnóstico</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO | white bg -->
+  <section id="inicio" class="mb-hero" style="padding:140px 0 80px; background:#ffffff;">
+    <div class="mobile-container" style="max-width:1200px; margin:0 auto; padding:0 20px; text-align:center;">
+
+      <h1 class="animate-fade-in heading-gold headline-constrained" style="margin-bottom:24px;">
+        Existem 4 frentes que impactam diretamente sua aquisição e conversão.
+      </h1>
+      <p class="animate-fade-in-delay-1 subheadline-constrained" style="color:#545454; margin-bottom:40px;">
+        Você nota sua taxa de conversão baixa, leads desqualificados chegando, marketing e comercial em briga eterna...
+        <strong>mas sabe exatamente em qual etapa sua aquisição está sendo mal planejada?</strong>
+      </p>
+
+      <!-- Author -->
+      <div class="animate-fade-in-delay-2"
+        style="display:flex; flex-direction:column; align-items:center; gap:4px; margin-top:16px;">
+        <img src="/amanda-foto.png" alt="Amanda Loba" class="author-photo-light" />
+        <div style="text-align:center;">
+          <p style="font-weight:700; margin:0; color:#545454;">Por Amanda Loba</p>
+          <p class="author-desc-bold text-secondary" style="letter-spacing:0.5px; margin:0;"><strong>Growth Estratégico
+              | Funil de Vendas</strong></p>
+        </div>
+        <a href="https://www.linkedin.com/in/amanda-loba/" target="_blank" class="text-secondary"
+          style="display:flex; align-items:center; gap:6px; text-decoration:none; transition:color 0.2s;"
+          onmouseover="this.style.color='#ddbe87'" onmouseout="this.style.color='#999'">
+          <svg style="width:16px; height:16px;" fill="currentColor" viewBox="0 0 24 24">
+            <path
+              d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+          </svg>
+          linkedin.com/in/amanda-loba
+        </a>
+      </div>
+
+      <!-- CTA -->
+      <div class="animate-fade-in-delay-3 cta-container">
+        <a href="#para-quem" class="btn-gold">
+          Entender as 4 frentes
+          <svg style="width:20px; height:20px;" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+          </svg>
+        </a>
+        <a href="#diagnostico" class="btn-outline">
+          Fazer o diagnóstico
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- PARA QUEM | white bg -->
+  <section id="para-quem" class="section-reveal mt-first-section mb-section" style="padding:0; background:#ffffff;">
+    <div class="mobile-container" style="max-width:800px; margin:0 auto; padding:0 20px;">
+      <h2 class="fade-up heading-gold" style="font-size:32px; text-align:center; margin-bottom:32px;">Para quem é este
+        material</h2>
+
+      <div class="fade-up" style="max-width:720px; margin:0 auto 32px; font-size:18px; line-height:1.6;">
+        <p style="color:#545454; margin-bottom:24px;">
+          <span
+            style="display:inline-block; font-size:12px; text-transform:uppercase; letter-spacing:0.08em; font-weight:600; padding:6px 10px; border-radius:6px; background:rgba(0,0,0,0.04); color:#2D2D2D; margin-right:8px; vertical-align:middle; line-height:1;">Vou
+            ser direta:</span>
+          este diagnóstico é essencial para <strong style="font-weight:700; color:#2D2D2D;">fundadores ou pessoas que
+            atuam diretamente na estratégia de aquisição</strong>, em negócios digitais que já faturam, mas os leads
+          chegam com baixa qualificação ou são só curiosos.
+        </p>
+
+        <!-- Divisor editorial -->
+        <div style="height:1px; width:80px; margin:16px 0 24px; background: linear-gradient(90deg, #C4A35A, #E8D5A0);">
+        </div>
+
+        <div style="display:flex; flex-direction:column; gap:14px; color:#545454; font-size:18px; margin-bottom:24px;">
+          <p style="display:flex; gap:10px; align-items:flex-start;"><span class="gold-text"
+              style="font-weight:700; font-size:20px;">→</span> A conversão no funil continua baixa, mesmo com criativos
+            direcionados ao ICP.</p>
+          <p style="display:flex; gap:10px; align-items:flex-start;"><span class="gold-text"
+              style="font-weight:700; font-size:20px;">→</span> O lead engaja, responde, agenda a call, mas na hora H
+            simplesmente desaparece.</p>
+          <p style="display:flex; gap:10px; align-items:flex-start;"><span class="gold-text"
+              style="font-weight:700; font-size:20px;">→</span> Você ajusta constantemente o processo comercial, mas não
+            vê melhora na taxa de conversão.</p>
+          <p style="display:flex; gap:10px; align-items:flex-start;"><span class="gold-text"
+              style="font-weight:700; font-size:20px;">→</span> O lead demonstra interesse, mas não avança para o
+            fechamento.</p>
+        </div>
+        <p style="color:#2D2D2D; font-size:18px; font-weight:600; margin-top:24px; margin-bottom:24px;">Se você está
+          passando por pelo menos
+          duas dessas
+          situações, continue.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ETAPAS | white bg -->
+  <section id="etapas" class="mb-section" style="padding:0; background:#ffffff;">
+    <div class="mobile-container" style="max-width:1200px; margin:0 auto; padding:0 20px;">
+      <div class="fade-up mb-section" style="text-align:center;">
+        <h2 class="heading-gold title-one-line" style="margin-bottom:16px;">Por que a conversão baixa não é só "leads
+          ruins"</h2>
+      </div>
+
+      <div class="fade-up"
+        style="max-width:720px; margin:0 auto 48px; border-left:4px solid transparent; border-image: linear-gradient(180deg, #C4A35A, #D4B978, #E8D5A0) 1; padding:4px 0 4px 24px;">
+        <div style="display:flex; flex-direction:column; gap:12px; color:#545454; font-size:18px; line-height:1.6;">
+          <p>Saber que "a conversão está baixa" ou "os leads são desqualificados" não basta pra agir de verdade.</p>
+          <p>A aquisição tem fases claras, e cada fase tem causas específicas.</p>
+          <p><strong style="font-weight:700; color:#2D2D2D; font-style:italic;">Sem identificar exatamente onde está o
+              problema, você continua gastando tempo e dinheiro sem consertar o principal.</strong></p>
+        </div>
+      </div>
+
+      <div class="gap-section mb-section" style="display:flex; flex-direction:column; max-width:700px; margin:0 auto;">
+
+        <!-- Etapa 01 — Tração -->
+        <div class="fade-up card-premium" style="display:flex; flex-direction:column;">
+          <div class="card-title-bar">01. Tração (Topo)</div>
+          <div class="card-body" style="flex:1;">
+
+            <p style="color:#545454; margin:0 0 24px 0;">
+              Atrai cliques, mas os leads chegam com baixa qualidade → <strong
+                style="font-weight:700; color:#2D2D2D;">dinheiro desperdiçado em anúncios.</strong>
+            </p>
+
+            <!-- Bloco do Sintoma -->
+            <div
+              style="background:#FCFBF9; padding:16px; border-radius:4px; border-left:4px solid transparent; border-image: linear-gradient(180deg, #C4A35A, #D4B978, #E8D5A0) 1; margin-bottom:24px;">
+              <strong
+                style="display:block; font-size:12px; color:#C4A35A; text-transform:uppercase; letter-spacing:0.5px; margin-bottom:8px;">O
+                sintoma mais comum</strong>
+              <p style="margin:0; font-style:italic; color:#545454; font-size:15px; line-height:1.5;">“Recebemos muitos
+                leads, mas poucos realmente têm perfil para comprar.”</p>
+            </div>
+
+            <!-- Bloco de Causas -->
+            <div>
+              <strong
+                style="display:block; font-size:12px; color:#2D2D2D; text-transform:uppercase; letter-spacing:0.5px; margin-bottom:12px;">O
+                que geralmente está por trás</strong>
+              <div style="display:flex; flex-direction:column; gap:10px;">
+                <div style="display:flex; align-items:flex-start; gap:8px;">
+                  <span style="color:#C4A35A; font-weight:700;">→</span>
+                  <span style="color:#545454; font-size:15px; line-height:1.5;">público-alvo mal definido</span>
+                </div>
+                <div style="display:flex; align-items:flex-start; gap:8px;">
+                  <span style="color:#C4A35A; font-weight:700;">→</span>
+                  <span style="color:#545454; font-size:15px; line-height:1.5;">segmentação ampla demais nos
+                    anúncios</span>
+                </div>
+                <div style="display:flex; align-items:flex-start; gap:8px;">
+                  <span style="color:#C4A35A; font-weight:700;">→</span>
+                  <span style="color:#545454; font-size:15px; line-height:1.5;">promessa do anúncio desalinhada com a
+                    oferta</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Etapa 02 — Meio do Funil -->
+        <div class="fade-up card-premium" style="display:flex; flex-direction:column;">
+          <div class="card-title-bar">02. Meio do Funil</div>
+          <div class="card-body" style="flex:1;">
+            <p style="color:#545454; margin:0 0 24px 0;">
+              Leads chegam interessados, mas <strong style="font-weight:700; color:#2D2D2D;">esfriam antes da decisão de
+                compra.</strong>
+            </p>
+
+            <!-- Bloco de Citação -->
+            <div
+              style="background:#FCFBF9; padding:16px; border-radius:4px; border-left:4px solid transparent; border-image: linear-gradient(180deg, #C4A35A, #D4B978, #E8D5A0) 1; margin-bottom:16px;">
+              <strong
+                style="display:block; font-size:12px; color:#C4A35A; text-transform:uppercase; letter-spacing:0.5px; margin-bottom:8px;">O
+                sintoma mais comum</strong>
+              <p style="margin:0; font-style:italic; color:#545454; font-size:15px; line-height:1.5;">"Marketing diz que
+                gera leads, comercial diz que os leads são ruins."</p>
+            </div>
+
+            <!-- Explicação Curta -->
+            <p style="color:#545454; margin:0 0 24px 0; font-size:15px; line-height:1.6;">
+              Na maioria das operações, o problema não está apenas na qualidade do lead.<br>Ele aparece na <strong
+                style="color:#2D2D2D;">falta de sintonia entre marketing e comercial.</strong>
+            </p>
+
+            <!-- Mini Quadro de Diagnóstico -->
+            <div
+              style="border:1px solid transparent; border-radius:8px; padding:16px; margin-bottom:24px; box-shadow:0 2px 8px rgba(0,0,0,0.02); background-image: linear-gradient(#ffffff, #ffffff), linear-gradient(135deg, #ccaf78, #ddbe87, #e4bf81); background-origin: border-box; background-clip: padding-box, border-box;">
+              <div class="card-02-table">
+
+                <div style="text-align:center; display:flex; flex-direction:column;">
+                  <span
+                    style="display:block; font-size:11px; color:#C4A35A; font-weight:700; text-transform:uppercase; letter-spacing:0.5px; margin-bottom:4px;">Causa
+                    principal</span>
+                  <div style="flex:1; display:flex; align-items:center; justify-content:center;">
+                    <span
+                      style="color:#2D2D2D; font-size:13px; font-weight:700; line-height:1.3; display:block;">Desalinhamento
+                      entre marketing e comercial</span>
+                  </div>
+                </div>
+
+                <div style="text-align:center; display:flex; flex-direction:column;">
+                  <span
+                    style="display:block; font-size:11px; color:#C4A35A; font-weight:700; text-transform:uppercase; letter-spacing:0.5px; margin-bottom:4px;">Impacto
+                    estimado</span>
+                  <div style="flex:1; display:flex; flex-direction:column; align-items:center; justify-content:center;">
+                    <span style="color:#C4A35A; font-size:14px; font-weight:800; display:block;">25–50%</span>
+                    <span style="color:#C4A35A; font-size:12px; font-weight:800; display:block;">da conversão</span>
+                  </div>
+                </div>
+
+                <div style="text-align:center;">
+                  <span
+                    style="display:block; font-size:11px; color:#C4A35A; font-weight:700; text-transform:uppercase; letter-spacing:0.5px; margin-bottom:4px;">O
+                    que acontece</span>
+                  <span style="color:#545454; font-size:13px; line-height:1.4; display:block;">Lead quente esfria na
+                    passagem entre marketing e comercial</span>
+                </div>
+
+                <div style="text-align:center;">
+                  <span
+                    style="display:block; font-size:11px; color:#C4A35A; font-weight:700; text-transform:uppercase; letter-spacing:0.5px; margin-bottom:4px;">Ajuste
+                    necessário</span>
+                  <span style="color:#545454; font-size:13px; line-height:1.4; display:block;">Definição
+                    clara de MQL, SQL e SLA entre marketing e comercial</span>
+                </div>
+
+              </div>
+            </div>
+
+            <!-- Lista Final -->
+            <div>
+              <strong
+                style="display:block; font-size:12px; color:#2D2D2D; text-transform:uppercase; letter-spacing:0.5px; margin-bottom:12px;">O
+                que geralmente está por trás</strong>
+              <div style="display:flex; flex-direction:column; gap:10px;">
+                <div style="display:flex; align-items:flex-start; gap:8px;">
+                  <span style="color:#C4A35A; font-weight:700;">→</span>
+                  <span style="color:#545454; font-size:15px; line-height:1.5;">ausência de feedback estruturado entre
+                    comercial e marketing</span>
+                </div>
+                <div style="display:flex; align-items:flex-start; gap:8px;">
+                  <span style="color:#C4A35A; font-weight:700;">→</span>
+                  <span style="color:#545454; font-size:15px; line-height:1.5;">falta de critérios claros para definir
+                    um lead qualificado</span>
+                </div>
+                <div style="display:flex; align-items:flex-start; gap:8px;">
+                  <span style="color:#C4A35A; font-weight:700;">→</span>
+                  <span style="color:#545454; font-size:15px; line-height:1.5;">campanhas continuam rodando sem ajuste
+                    baseado no que acontece no processo comercial</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Etapa 03 — Fundo do Funil -->
+        <div class="fade-up card-premium" style="display:flex; flex-direction:column;">
+          <div class="card-title-bar">03. Fundo do Funil</div>
+          <div class="card-body" style="flex:1;">
+
+            <!-- Frase Principal -->
+            <p style="color:#545454; margin:0 0 16px 0;">
+              O lead chega convencido, mas a <strong style="font-weight:700; color:#2D2D2D;">decisão final não
+                acontece.</strong>
+            </p>
+
+            <!-- Explicação Curta -->
+            <p style="color:#545454; margin:0 0 32px 0; font-size:15px; line-height:1.6;">
+              E o raciocínio geralmente segue este caminho:
+            </p>
+
+            <!-- Funil Visual em Barras -->
+            <div style="display:flex; flex-direction:column; gap:8px; margin-bottom:32px; align-items:center;">
+
+              <!-- Barra 1 -->
+              <div
+                style="width:100%; border:1px solid transparent; background-image: linear-gradient(#fcfcfc, #fcfcfc), linear-gradient(135deg, #ccaf78, #e4bf81); background-origin: border-box; background-clip: padding-box, border-box; border-radius:4px; padding:10px 16px; text-align:center;">
+                <span
+                  style="color:#545454; font-size:14px; font-weight:400; font-style:italic; letter-spacing:0px;">"Interessante…
+                  deixa eu entender melhor isso."</span>
+              </div>
+
+              <!-- Barra 2 -->
+              <div
+                style="width:85%; border:1px solid transparent; background-image: linear-gradient(#fcfcfc, #fcfcfc), linear-gradient(135deg, #ccaf78, #e4bf81); background-origin: border-box; background-clip: padding-box, border-box; border-radius:4px; padding:10px 16px; text-align:center;">
+                <span
+                  style="color:#545454; font-size:14px; font-weight:400; font-style:italic; letter-spacing:0px;">"Isso
+                  parece fazer sentido para o meu caso."</span>
+              </div>
+
+              <!-- Barra 3 -->
+              <div
+                style="width:70%; border:1px solid transparent; background-image: linear-gradient(#fcfcfc, #fcfcfc), linear-gradient(135deg, #ccaf78, #e4bf81); background-origin: border-box; background-clip: padding-box, border-box; border-radius:4px; padding:10px 16px; text-align:center;">
+                <span
+                  style="color:#545454; font-size:14px; font-weight:400; font-style:italic; letter-spacing:0px;">"Pode
+                  funcionar… mas preciso avaliar melhor."</span>
+              </div>
+
+              <!-- Barra 4 -->
+              <div
+                style="width:55%; border:1px solid transparent; background-image: linear-gradient(#fcfcfc, #fcfcfc), linear-gradient(135deg, #ccaf78, #e4bf81); background-origin: border-box; background-clip: padding-box, border-box; border-radius:4px; padding:10px 16px; text-align:center;">
+                <span
+                  style="color:#545454; font-size:14px; font-weight:400; font-style:italic; letter-spacing:0px;">"Ah,
+                  depois eu vejo isso."</span>
+              </div>
+
+              <!-- Bloco Final de Resultado -->
+              <div
+                style="margin-top:12px; background:rgba(217, 83, 79, 0.08); border:1px solid rgba(217, 83, 79, 0.3); border-radius:6px; padding:10px 24px; text-align:center;">
+                <span style="color:#d9534f; font-size:15px; font-weight:600; letter-spacing:0.5px;">Decisão adiada
+                  👍</span>
+              </div>
+
+            </div>
+
+            <!-- Lista Final -->
+            <div>
+              <strong
+                style="display:block; font-size:12px; color:#2D2D2D; text-transform:uppercase; letter-spacing:0.5px; margin-bottom:12px;">O
+                que geralmente está por trás</strong>
+              <div style="display:flex; flex-direction:column; gap:10px;">
+                <div style="display:flex; align-items:flex-start; gap:8px;">
+                  <span style="color:#C4A35A; font-weight:700;">→</span>
+                  <span style="color:#545454; font-size:15px; line-height:1.5;">proposta de valor pouco clara</span>
+                </div>
+                <div style="display:flex; align-items:flex-start; gap:8px;">
+                  <span style="color:#C4A35A; font-weight:700;">→</span>
+                  <span style="color:#545454; font-size:15px; line-height:1.5;">ausência de prova social forte (cases,
+                    depoimentos, resultados)</span>
+                </div>
+                <div style="display:flex; align-items:flex-start; gap:8px;">
+                  <span style="color:#C4A35A; font-weight:700;">→</span>
+                  <span style="color:#545454; font-size:15px; line-height:1.5;">objeções importantes não tratadas antes
+                    da oferta</span>
+                </div>
+                <div style="display:flex; align-items:flex-start; gap:8px;">
+                  <span style="color:#C4A35A; font-weight:700;">→</span>
+                  <span style="color:#545454; font-size:15px; line-height:1.5;">risco percebido alto na decisão de
+                    compra</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Etapa 04 — Checkout -->
+        <div class="fade-up card-premium" style="display:flex; flex-direction:column;">
+          <div class="card-title-bar">04. Checkout (Finalização da Compra)</div>
+          <div class="card-body" style="flex:1;">
+
+            <!-- Frase Principal -->
+            <p style="color:#545454; margin:0 0 16px 0;">
+              O cliente decide comprar, mas o <strong style="font-weight:700; color:#2D2D2D;">pagamento não é
+                concluído.</strong>
+            </p>
+
+            <!-- Explicação Curta -->
+            <p style="color:#545454; margin:0 0 32px 0; font-size:15px; line-height:1.6;">
+              Mesmo quando a decisão de compra já foi tomada, problemas no processo de pagamento ou no checkout podem
+              impedir a finalização da venda.
+            </p>
+
+            <!-- Mapa Visual de Causas (Diagrama) -->
+            <div class="checkout-map">
+              <div class="cm-cause cm-top">
+                <strong style="display:block; color:#2D2D2D; font-size:13px; margin-bottom:4px;">Experiência
+                  lenta</strong>
+                <span style="color:#545454; font-size:12px; line-height:1.4; display:block;">Páginas que demoram para
+                  carregar ou falham em dispositivos móveis fazem o cliente abandonar o pagamento.</span>
+              </div>
+
+              <div class="cm-cause cm-left">
+                <strong style="display:block; color:#2D2D2D; font-size:13px; margin-bottom:4px;">Processo longo</strong>
+                <span style="color:#545454; font-size:12px; line-height:1.4; display:block;">Formulários extensos ou
+                  muitas etapas entre a decisão e a confirmação da compra.</span>
+              </div>
+
+              <div class="cm-center">
+                <span
+                  style="display:block; color:#2D2D2D; font-size:14px; font-weight:700; text-transform:uppercase; letter-spacing:0.5px;">PAGAMENTO</span>
+                <span style="display:block; color:#d9534f; font-size:13px; font-style:italic; font-weight:600;">não
+                  concluído</span>
+              </div>
+
+              <div class="cm-cause cm-right">
+                <strong style="display:block; color:#2D2D2D; font-size:13px; margin-bottom:4px;">Poucas opções de
+                  pagamento</strong>
+                <span style="color:#545454; font-size:12px; line-height:1.4; display:block;">Falta de métodos comuns
+                  como Pix, parcelamento ou opções usadas pelo público.</span>
+              </div>
+
+              <div class="cm-cause cm-bottom">
+                <strong style="display:block; color:#2D2D2D; font-size:13px; margin-bottom:4px;">Falta de
+                  clareza</strong>
+                <span style="color:#545454; font-size:12px; line-height:1.4; display:block;">Informações pouco claras
+                  sobre prazo, garantia ou confirmação da compra.</span>
+              </div>
+            </div>
+
+            <!-- Lista Final -->
+            <div>
+              <strong
+                style="display:block; font-size:12px; color:#2D2D2D; text-transform:uppercase; letter-spacing:0.5px; margin-bottom:12px;">O
+                que geralmente está por trás</strong>
+              <div style="display:flex; flex-direction:column; gap:10px;">
+                <div style="display:flex; align-items:flex-start; gap:8px;">
+                  <span style="color:#C4A35A; font-weight:700;">→</span>
+                  <span style="color:#545454; font-size:15px; line-height:1.5;">páginas de pagamento lentas ou
+                    confusas</span>
+                </div>
+                <div style="display:flex; align-items:flex-start; gap:8px;">
+                  <span style="color:#C4A35A; font-weight:700;">→</span>
+                  <span style="color:#545454; font-size:15px; line-height:1.5;">poucas opções de pagamento
+                    disponíveis</span>
+                </div>
+                <div style="display:flex; align-items:flex-start; gap:8px;">
+                  <span style="color:#C4A35A; font-weight:700;">→</span>
+                  <span style="color:#545454; font-size:15px; line-height:1.5;">experiência ruim em dispositivos
+                    móveis</span>
+                </div>
+                <div style="display:flex; align-items:flex-start; gap:8px;">
+                  <span style="color:#C4A35A; font-weight:700;">→</span>
+                  <span style="color:#545454; font-size:15px; line-height:1.5;">formulários complexos ou etapas
+                    desnecessárias</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Callout Editorial (Destaque) -->
+      <div class="fade-up editorial-callout">
+        <div class="bar"></div>
+        <div class="insight-content">
+          <div class="insight-label">
+            <svg style="width:16px; height:16px;" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+              stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path>
+              <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path>
+            </svg>
+            Insight Estratégico
+          </div>
+          <p class="p-highlight">
+            O diagnóstico vai apontar em qual dessas quatro etapas você precisa dar mais atenção agora, onde o funil
+            está mais fraco e onde ajustar primeiro.
+          </p>
+          <p class="p-normal">
+            Já vi dezenas de operações que pareciam estar “quase lá” e descobriram que o problema estava concentrado em
+            uma única frente.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DIAGNÓSTICO INTERATIVO | white bg -->
+  <section id="diagnostico" style="padding:0 0 80px; background:#ffffff;">
+    <div class="mobile-container" style="max-width:800px; margin:0 auto; padding:0 20px;">
+      <div class="fade-up" style="text-align:center; margin-bottom:48px;">
+        <h2 class="heading-gold" style="font-size:32px; margin-bottom:16px;">Diagnóstico de Conversão</h2>
+        <p style="color:#545454; max-width:600px; margin:0 auto;">
+          Avalie onde sua operação está hoje. Responda cada pergunta com sinceridade
+        </p>
+        <p class="text-secondary" style="max-width:600px; margin:12px auto 0; font-style:italic;">
+          O resultado vai mostrar exatamente qual frente precisa de atenção primeiro.
+        </p>
+      </div>
+
+      <div class="fade-up card-premium quiz-container-wrap" style="overflow:visible;">
+        <div class="card-body">
+          <!-- Nome -->
+          <div style="margin-bottom:32px;">
+            <label style="font-size:16px; font-weight:700; color:#2D2D2D; display:block; margin-bottom:8px;">
+              Digite seu nome para personalizar o resultado
+            </label>
+            <input type="text" id="quiz-user-name" placeholder="Ex: Amanda"
+              style="width:100%; padding:14px 18px; border:1.5px solid #D4B978; border-radius:10px; font-size:16px; outline:none; font-family:'Lato',sans-serif; transition:border-color 0.2s;"
+              onfocus="this.style.borderColor='#C4A35A'" onblur="this.style.borderColor='#D4B978'" />
+          </div>
+
+          <!-- Progress Bar -->
+          <div id="quiz-progress-sticky-wrap"
+            style="margin-bottom:16px; position:sticky; top:0; z-index:40; padding:20px 0 14px; background:#ffffff;">
+            <div style="display:flex; justify-content:space-between; margin-bottom:8px;">
+              <span class="text-secondary">Progresso</span>
+              <span id="quiz-progress-text" style="font-weight:700; color:#2D2D2D;">0%</span>
+            </div>
+            <div style="height:8px; background:#f0ebe3; border-radius:4px; overflow:hidden;">
+              <div id="quiz-progress-bar"
+                style="height:100%; width:0%; background:linear-gradient(135deg, #B8963F, #C4A35A, #D4B978, #E8D5A0); transition:width 0.4s ease; border-radius:4px;">
+              </div>
+            </div>
+          </div>
+
+          <form id="funnel-quiz">
+            <!-- As perguntas são renderizadas dinamicamente pelo main.js -->
+            <div id="quiz-questions-container"></div>
+
+            <div style="margin-top:48px; text-align:center; display:flex; justify-content:center;">
+              <button type="submit" class="btn-gold" style="border:none; cursor:pointer; padding:20px 56px;">
+                Gerar Diagnóstico
+              </button>
+            </div>
+          </form>
+
+          <!-- Resultado -->
+          <div id="quiz-result" style="display:none; margin-top:56px; border-top:2px solid #D4B978; padding-top:48px;">
+            <h3 class="heading-gold" style="font-size:28px; margin-bottom:24px; text-align:center;">Seu Diagnóstico
+              Personalizado</h3>
+            <div id="result-content" style="margin-bottom:36px;"></div>
+
+            <div class="btn-container-mobile" style="display:flex; gap:16px; flex-wrap:wrap; justify-content:center;">
+              <button id="btn-download-pdf" class="btn-outline"
+                style="cursor:pointer; border:1.5px solid #D4B978; font-size:16px; padding:16px 32px;">
+                📄 Baixar PDF do Diagnóstico
+              </button>
+              <a href="https://cal.com/agencia-safira/30min" target="_blank" class="btn-gold"
+                style="font-size:16px; padding:16px 32px;">
+                Agendar Análise Gratuita →
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+
+
+  <!-- FOOTER | white bg -->
+  <footer style="padding:40px 0; background:#ffffff; text-align:center; border-top:1px solid rgba(0,0,0,0.06);">
+    <div class="mobile-container" style="max-width:800px; margin:0 auto; padding:0 20px;">
+      <img src="/logo-safira.png" alt="Safira"
+        style="height:32px; width:auto; margin:0 auto 12px; display:block; opacity:0.7;" />
+      <p class="text-secondary" style="font-weight:700;">© 2026 Safira Estratégia de Expansão Digital. Todos os
+        direitos reservados.</p>
+    </div>
+  </footer>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+
+</html>
