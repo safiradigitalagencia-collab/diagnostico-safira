@@ -257,9 +257,9 @@ const interactiveQuizData = [
   {
     q: "Qual a maior barreira que você nota que impede a finalização de compra?",
     options: [
-      { id: 'nutricao', text: 'Eles nem chegam lá. Os leads precisam de muito tempo de maturação antes do checkout.' },
-      { id: 'aquisicao', text: 'Meu tráfego atual não é qualificado suficiente para encher meu checkout nem se tivesse 1 clique só.' },
-      { id: 'decisao', text: 'Tem bastante fricção. Vários campos, não tem Pix rápido, design das antigas, muitas distrações.' },
+      { id: 'nutricao', text: 'Os leads precisam de muito tempo de maturação antes do checkout.' },
+      { id: 'aquisicao', text: 'Meu tráfego atual não é qualificado suficiente para gerar demanda para o meu time de vendas.' },
+      { id: 'decisao', text: 'Só notei barreiras técnicas. Como compra recusada, checkout não finalizado, etc.' },
       { id: 'conversao', text: 'O checkout é liso, mas a página antes dele (LP de Vendas) não tem poder suficiente pra mandar muita gente pra lá.' }
     ]
   },
