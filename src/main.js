@@ -213,9 +213,9 @@ const interactiveQuizData = [
     q: "Qual o sentimento geral da sua equipe comercial ou de vendas frente aos contatos diários?",
     options: [
       { id: 'nutricao', text: '"Esses leads estão crus demais, eu tenho que dar aula antes de vender."' },
-      { id: 'decisao', text: '"Eu bato o pênalti, a venda tá feita, mas o financeiro do cliente ou o cartão bloqueiam."' },
-      { id: 'aquisicao', text: '"Os leads são horríveis, muito caroços, não tem perfil para comprar nosso produto."' },
-      { id: 'conversao', text: '"Pelas objeções, os clientes não percebem que nossa solução é superior, falta valor e autoridade."' }
+      { id: 'decisao', text: '"Comemoram assim que o cliente pede o link, mas vão desanimando com a demora para a compra ser concluída."' },
+      { id: 'aquisicao', text: '"Os leads são horríveis, muito desinteressados, não tem perfil para comprar nosso produto."' },
+      { id: 'conversao', text: '"Os clientes não percebem da nossa solução e decidem pelo preço."' }
     ]
   },
   {
