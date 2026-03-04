@@ -255,7 +255,7 @@ const interactiveQuizData = [
     ]
   },
   {
-    q: "Seu processo de Checkout hoje tem quantas fricções (etapas)?",
+    q: "Seu processo de pagamento hoje tem quantas etapas?",
     options: [
       { id: 'nutricao', text: 'Eles nem chegam lá. Os leads precisam de muito tempo de maturação antes do checkout.' },
       { id: 'aquisicao', text: 'Meu tráfego atual não é qualificado suficiente para encher meu checkout nem se tivesse 1 clique só.' },
