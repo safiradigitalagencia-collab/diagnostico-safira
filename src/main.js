@@ -219,12 +219,12 @@ const interactiveQuizData = [
     ]
   },
   {
-    q: "Sua estratégia de marketing hoje, é pensada mais para oquê?",
+    q: "Na sua estratégia de funil hoje, qual sua prioridade máxima?",
     options: [
-      { id: 'conversao', text: 'Para melhorar o processo de vendas e aumentar a taxa de conversão.' },
-      { id: 'decisao', text: 'Focada em mandar fazer follow-up com quem já demonstrou interesse.' },
-      { id: 'aquisicao', text: 'Focada em expandir os canais de aquisição e aumentar o volume de tráfego.' },
-      { id: 'nutricao', text: 'Aulas, artigos e relacionamento constante. Mas a taxa de abertura está em declínio constante.' }
+      { id: 'conversao', text: 'Melhorar o processo de vendas e aumentar a taxa de conversão.' },
+      { id: 'decisao', text: 'Fazer follow-up com quem já demonstrou interesse.' },
+      { id: 'aquisicao', text: 'Expandir os canais de aquisição e aumentar o volume de tráfego.' },
+      { id: 'nutricao', text: 'Fortalecer minha marca pessoal com produção de conteúdo e relacionamento constante.' }
     ]
   },
   {
