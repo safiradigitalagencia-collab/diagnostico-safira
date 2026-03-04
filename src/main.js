@@ -141,18 +141,18 @@ const interactiveQuizData = [
     q: "Sua produção de conteúdo tem qual impacto prático hoje nas vendas?",
     options: [
       { id: 'aquisicao', text: 'Gera muitas curtidas, mas não atrai leads qualificados.' },
-      { id: 'decisao', text: 'Traz meu ICP decididas, mas  o problema aparece na hora de finalizar a compra.' },
-      { id: 'conversao', text: 'As pessoas adoram, mas não enxergam a ponte entre o conteúdo grátis e minha oferta paga.' },
-      { id: 'nutricao', text: 'Atrai um bom público inicial, mas eles não abrem os emails de aprofundamento ou lives fechadas.' }
+      { id: 'decisao', text: 'Traz meu ICP, mas  o problema aparece na hora de finalizar a compra.' },
+      { id: 'conversao', text: 'Recebo muitos feedbacks positivos, mas não enxergam a ponte entre o conteúdo grátis e minha oferta paga.' },
+      { id: 'nutricao', text: 'Atrai um bom público, mas que não consome muito além do primeiro conteúdo.' }
     ]
   },
   {
-    q: "Sobre a sua página de vendas principal (Landing Page), o que os números dizem?",
+    q: "Quando a venda acontece, o que os números dizem?",
     options: [
-      { id: 'conversao', text: 'A taxa de conversão final da página está travada em menos de 1% a 2%.' },
-      { id: 'nutricao', text: 'As pessoas mal chegam nela. A queda ocorre antes, durante a sequência de avisos.' },
-      { id: 'aquisicao', text: 'Tenho alto custo por acesso na página. Trazer tráfego para ela tem ficado insustentável.' },
-      { id: 'decisao', text: 'Recebe muitos cliques no botão "Comprar", porém o sistema de pagamento registra pouquíssimas vendas.' }
+      { id: 'conversao', text: 'A taxa de conversão final está muito abaixo do esperado.' },
+      { id: 'nutricao', text: 'As pessoas mal chegam na oferta. A queda costuma acontecer antes.' },
+      { id: 'aquisicao', text: 'A aquisição está cada vez mais cara. Mesmo com leads qualificados está dificil escalar.' },
+      { id: 'decisao', text: 'Diversas intenções de compra recebidas, porém poucas vendas concretizadas.' }
     ]
   },
   {
