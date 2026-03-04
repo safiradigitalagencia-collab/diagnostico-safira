@@ -215,15 +215,15 @@ const interactiveQuizData = [
       { id: 'nutricao', text: '"Esses leads estão crus demais, eu tenho que dar aula antes de vender."' },
       { id: 'decisao', text: '"Comemoram assim que o cliente pede o link, mas vão desanimando com a demora para a compra ser concluída."' },
       { id: 'aquisicao', text: '"Os leads são horríveis, muito desinteressados, não tem perfil para comprar nosso produto."' },
-      { id: 'conversao', text: '"Os clientes não percebem da nossa solução e decidem pelo preço."' }
+      { id: 'conversao', text: '"Os clientes não percebem o valor da nossa solução e decidem pelo preço."' }
     ]
   },
   {
-    q: "Sua automação de e-mail marketing hoje trabalha mais para quê?",
+    q: "Sua estratégia de marketing hoje, é pensada mais para oquê?",
     options: [
-      { id: 'conversao', text: 'Para fazer pitch direto o tempo todo (Ofertas). Mas a conversão está bem baixa.' },
-      { id: 'decisao', text: 'Focada em mandar lembretes de compra e avisos urgentes (Últimas horas, Carrinho Aberto).' },
-      { id: 'aquisicao', text: 'Eu nem ligo muito para automação, meu foco é botar tráfego direto rodando no Instagram.' },
+      { id: 'conversao', text: 'Para melhorar o processo de vendas e aumentar a taxa de conversão.' },
+      { id: 'decisao', text: 'Focada em mandar fazer follow-up com quem já demonstrou interesse.' },
+      { id: 'aquisicao', text: 'Focada em expandir os canais de aquisição e aumentar o volume de tráfego.' },
       { id: 'nutricao', text: 'Aulas, artigos e relacionamento constante. Mas a taxa de abertura está em declínio constante.' }
     ]
   },
