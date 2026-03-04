@@ -260,7 +260,7 @@ const interactiveQuizData = [
       { id: 'nutricao', text: 'Os leads precisam de muito tempo de maturação antes do checkout.' },
       { id: 'aquisicao', text: 'Meu tráfego atual não é qualificado suficiente para gerar demanda para o meu time de vendas.' },
       { id: 'decisao', text: 'Só notei barreiras técnicas. Como compra recusada, checkout não finalizado, etc.' },
-      { id: 'conversao', text: 'O checkout é liso, mas a página antes dele (LP de Vendas) não tem poder suficiente pra mandar muita gente pra lá.' }
+      { id: 'conversao', text: 'Sinto que preciso melhorar o processo comercial.' }
     ]
   },
   {
