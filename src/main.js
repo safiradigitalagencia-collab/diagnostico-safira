@@ -240,7 +240,7 @@ const interactiveQuizData = [
     q: "Sobre campanha de vendas, qual é a característica que mais se repete?",
     options: [
       { id: 'aquisicao', text: 'Captação cara ou volume de leads muito abaixo do esperado.' },
-      { id: 'conversao', text: 'Muito valor percebido, entrega acima da média. Mas a taxa conversão foi decepcionante.' },
+      { id: 'conversao', text: 'Muito valor percebido, entrega acima da média. Mas a taxa de conversão decepcionante.' },
       { id: 'nutricao', text: 'Público frio, que não comparece, não interage e não compra.' },
       { id: 'decisao', text: 'Intençao de compra alta, mas pedem para parcelar no boleto ou PIX.' }
     ]
