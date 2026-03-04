@@ -132,13 +132,13 @@ const interactiveQuizData = [
     q: "Como está o ciclo de vida (jornada) do seu lead até o momento da compra?",
     options: [
       { id: 'nutricao', text: 'Longo demais. Eu não consigo aquecer com velocidade sem que percam o interesse.' },
-      { id: 'conversao', text: 'Preciso incentivar para que finalize o pagamento o quanto antes, pois muitos adiam e depois desistem' },
-      { id: 'aquisicao', text: 'Muito confuso. Eu não sei exatamente de qual canal o meu melhor comprador vem.' },
+      { id: 'conversao', text: 'Está bom. Mas se não incentivar para que finalize o pagamento o quanto antes, muitos adiam a compra' },
+      { id: 'aquisicao', text: 'Está confuso. Eu não sei exatamente de qual canal o meu melhor comprador vem.' },
       { id: 'decisao', text: 'Eles decidem super rápido, mas travam justo na hora de passar as informações finais.' }
     ]
   },
   {
-    q: "Sua produção de conteúdo no Instagram/Youtube tem qual impacto prático hoje nas vendas?",
+    q: "Sua produção de conteúdo tem qual impacto prático hoje nas vendas?",
     options: [
       { id: 'aquisicao', text: 'Gera muitas curtidas, mas não atrai seguidores qualificados para clicar nos meus links.' },
       { id: 'decisao', text: 'Traz pessoas decididas, mas que acabam se confundindo muito com o meu processo de compra.' },
