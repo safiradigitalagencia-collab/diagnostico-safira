@@ -230,10 +230,10 @@ const interactiveQuizData = [
   {
     q: "Quem é o seu lead mais comum nos dias atuais?",
     options: [
-      { id: 'decisao', text: 'Aquele que quer muito, sabe que precisa, pede prazo e depois a burocracia trava ele.' },
-      { id: 'nutricao', text: 'Aquele que consome seu material gratuito, agradece pela ajuda e vai embora feliz sem comprar nada.' },
+      { id: 'decisao', text: 'Aquele que quer muito, sabe que precisa, mas pede prazo e demora para fechar.' },
+      { id: 'nutricao', text: 'Aquele que consome o material gratuito, agradece pela ajuda, mas não compra.' },
       { id: 'conversao', text: 'Aquele que compara você com outros 3 concorrentes e escolhe o mais barato.' },
-      { id: 'aquisicao', text: 'Aquele que clica por curiosidade, não entende nada do que você faz e sai.' }
+      { id: 'aquisicao', text: 'Aquele que cai de paraquedas e nem entende o que você faz ou entrega.' }
     ]
   },
   {
