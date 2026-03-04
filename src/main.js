@@ -194,8 +194,8 @@ const interactiveQuizData = [
   {
     q: "O que os seus concorrentes mais diretos parecem estar acertando mais do que você?",
     options: [
-      { id: 'conversao', text: 'Tem uma oferta muito mais atrativa e irresistível que a minha (mesmo o produto sendo pior).' },
-      { id: 'decisao', text: 'Oferecem opções de pagamento mais flexíveis (boleto parcelado, crediário, recorrente).' },
+      { id: 'conversao', text: 'Oferta mais atrativa que a minha (mesmo o produto inferior).' },
+      { id: 'decisao', text: 'Oferecem opções de pagamento mais flexíveis (boleto parcelado, recorrente).' },
       { id: 'aquisicao', text: 'Parecem escalar anúncios com uma facilidade absurda e estão em todos os lugares o tempo todo.' },
       { id: 'nutricao', text: 'A comunidade/audiência deles é muito engajada, as pessoas são fãs absolutos.' }
     ]
