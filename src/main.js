@@ -95,25 +95,25 @@ const interactiveQuizData = [
   {
     q: "Como você avalia o volume e o perfil dos leads que chegam diariamente na sua base?",
     options: [
-      { id: 'aquisicao', text: 'Tenho cliques, mas poucos leads, e a maioria é curiosa ou desqualificada.' },
-      { id: 'nutricao', text: 'Entram muitos leads, mas eles não interagem com os meus emails ou conteúdos.' },
-      { id: 'conversao', text: 'Os leads parecem bons, mas fogem quando apresento o preço ou a oferta.' },
-      { id: 'decisao', text: 'Eles chegam até a página de checkout, mas abandonam o carrinho no final.' }
+      { id: 'aquisicao', text: 'Chega muito lead curioso ou desqualificado.' },
+      { id: 'nutricao', text: 'O volume é bom, mas eles não interagem ou param de responder.' },
+      { id: 'conversao', text: 'Os leads parecem bons, mas somem quando apresento o preço ou a oferta.' },
+      { id: 'decisao', text: 'Eles chegam até a última etapa de decisão, mas não concluem o pagamento.' }
     ]
   },
   {
-    q: "Quando você lança um novo material gratuito ou isca de conteúdo, o que costuma acontecer?",
+    q: "Quando você lança um novo material gratuito, o que costuma acontecer?",
     options: [
-      { id: 'nutricao', text: 'Eles baixam, porém o engajamento com meus emails seguintes despenca rápido.' },
-      { id: 'decisao', text: 'Engajam bem, mas na hora de comprar o produto atrelado, o cartão falha ou desistem.' },
-      { id: 'aquisicao', text: 'O custo por clique fica caro e a captação acaba não se pagando.' },
-      { id: 'conversao', text: 'Consomem tudo, mas demonstram que ainda não confiam totalmente na minha solução.' }
+      { id: 'nutricao', text: 'Eles baixam, consomem e fica por isso.' },
+      { id: 'decisao', text: 'Recebo feedbacks sobre o material e grande parte aplica, mas não demonstram interesse de compra.' },
+      { id: 'aquisicao', text: 'Mesmo sendo gratuito o volume de leads é baixo.' },
+      { id: 'conversao', text: 'Demonstram interesse na solução completa, mas no final preferem esperar e adiam a compra' }
     ]
   },
   {
     q: "Qual é a principal objeção levantada pelos seus leads durante uma negociação direta ou pelos comentários?",
     options: [
-      { id: 'decisao', text: '"Estou com dificuldade no pagamento/o link travou" ou simplesmente somem sem avisar.' },
+      { id: 'decisao', text: '"Não finalizei por problemas com o cartão/checkout".' },
       { id: 'aquisicao', text: '"Não achei que era isso pago" ou "Achei que o serviço era grátis".' },
       { id: 'conversao', text: '"Achei muito caro" ou "Vou pensar melhor" (Falta de valor percebido na oferta).' },
       { id: 'nutricao', text: '"Não sei se isso serve para o meu momento atual" (Falta de conscientização prévia).' }
