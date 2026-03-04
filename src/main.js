@@ -203,10 +203,10 @@ const interactiveQuizData = [
   {
     q: "Seu produto possui alguma garantia agressiva, prova social forte ou bônus ancorados?",
     options: [
-      { id: 'aquisicao', text: 'Tenho tudo isso, mas as pessoas nem clicam no anúncio para descobrir.' },
-      { id: 'conversao', text: 'Tenho, mas sinto que não estou comunicando isso direito na página. As pessoas ainda têm dúvidas.' },
-      { id: 'nutricao', text: 'Eu jogo tudo isso na cara do lead, mas ele não tem o nível de consciência necessário pra valorizar ainda.' },
-      { id: 'decisao', text: 'Até os bônus e garantia não são suficientes na hora do pagamento, a barreira de compra é alta.' }
+      { id: 'aquisicao', text: 'Tenho tudo isso, mas vejo impacto direto na aquisição.' },
+      { id: 'conversao', text: 'Tenho, mas sinto que não estou comunicando bem. As pessoas ainda têm dúvidas.' },
+      { id: 'nutricao', text: 'Eu mostro tudo isso para o lead, mas ele não tem o nível de consciência necessário pra valorizar ainda.' },
+      { id: 'decisao', text: 'Não tenho e mesmo assim nossa taxa de fechamento é boa.' }
     ]
   },
   {
