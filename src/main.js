@@ -170,14 +170,14 @@ const interactiveQuizData = [
       { id: 'conversao', text: 'Eles olham a oferta e dizem que precisam falar com o sócio/esposa (insegurança).' },
       { id: 'aquisicao', text: 'Eles nem sabem quem eu sou ou o que eu vendo direito, caíram lá de paraquedas.' },
       { id: 'decisao', text: 'Apertam todos os botões, pedem o link, mas depois dizem que o cartão não virou.' },
-      { id: 'nutricao', text: 'Ficam calados. O grupo do WhatsApp morre ou ignoram as mensagens do SDR.' }
+      { id: 'nutricao', text: 'Ficam calados e ignoram as mensagens do SDR.' }
     ]
   },
   {
     q: "Se você recebesse o dobro de tráfego amanhã na sua operação, qual seria o gargalo imediato?",
     options: [
-      { id: 'nutricao', text: 'Meu atendimento engargalaria lidando com perguntas básicas ou minha automação iria pro espaço.' },
-      { id: 'aquisicao', text: 'Nada mudaria no final, pois esse "dobro" provavelmente viria de curiosos sem dinheiro.' },
+      { id: 'nutricao', text: 'Meu atendimento engargalaria lidando com perguntas básicas.' },
+      { id: 'aquisicao', text: 'Nada mudaria no final, pois esse "dobro" provavelmente viria de curiosos.' },
       { id: 'decisao', text: 'Aumentaria meus gastos com plataformas ou gateways que retém/bloqueiam vendas pendentes.' },
       { id: 'conversao', text: 'A equipe de vendas não daria conta de fechar negócios, a conversão geral de fechamento ia cair.' }
     ]
