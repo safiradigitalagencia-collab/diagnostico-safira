@@ -248,10 +248,10 @@ const interactiveQuizData = [
   {
     q: "Qual frase definiria o seu sentimento sobre a etapa do funil que mais pesa no seu negócio hoje?",
     options: [
-      { id: 'conversao', text: '"Não consigo provar o valor do meu produto o suficiente para o lead passar o cartão."' },
+      { id: 'conversao', text: '"Não consigo provar o valor do meu produto o suficiente."' },
       { id: 'nutricao', text: '"Meus leads entram frios, continuam frios e saem congelados."' },
-      { id: 'aquisicao', text: '"Estou pagando muito caro num público sujo e desqualificado."' },
-      { id: 'decisao', text: '"Eu vendo, mas a transação não finaliza pelas beiradas do checkout e burocracia."' }
+      { id: 'aquisicao', text: '"Estou pagando muito caro em um público desqualificado."' },
+      { id: 'decisao', text: '"Eu fecho a venda, mas a transação não finaliza por problemas técnicos."' }
     ]
   },
   {
