@@ -120,12 +120,12 @@ const interactiveQuizData = [
     ]
   },
   {
-    q: "Olhando para as campanhas ativas hoje, onde está seu maior esforço ou frustração?",
+    q: "Olhando para sua operação hoje, onde está seu maior esforço ou frustração?",
     options: [
-      { id: 'conversao', text: 'O Lead chega quente, é conduzido pelo comercial, mas a taxa de conversão é baixa.' },
-      { id: 'nutricao', text: 'Não saber se meu conteúdo está consciêntizando ou gerando valor da forma correta.' },
-      { id: 'decisao', text: 'O bandono de carrinho têm as maiores taxas e recupero muito pouco.' },
-      { id: 'aquisicao', text: 'Mexer no tráfego toda semana porque as campanhas saturam absurdamente rápido.' }
+      { id: 'conversao', text: 'Leads que chegam quentes, são conduzidos pelo comercial, mas a taxa de conversão é baixa.' },
+      { id: 'nutricao', text: 'Não saber se meu conteúdo está conscientizando e gerando valor da forma correta.' },
+      { id: 'decisao', text: 'A taxa de abandono de carrinho é alta e não consigo recuperar essas vendas.' },
+      { id: 'aquisicao', text: 'Ter que mexer no tráfego toda semana porque as campanhas param de performar.' }
     ]
   },
   {
@@ -192,7 +192,7 @@ const interactiveQuizData = [
     ]
   },
   {
-    q: "O que os seus concorrentes mais diretos parecem estar acertando mais do que você?",
+    q: "O que os seus concorrentes diretos parecem estar acertando mais do que você?",
     options: [
       { id: 'conversao', text: 'Oferta mais atrativa que a minha (mesmo o produto inferior).' },
       { id: 'decisao', text: 'Oferecem opções de pagamento mais flexíveis (boleto parcelado, recorrente).' },
@@ -203,7 +203,7 @@ const interactiveQuizData = [
   {
     q: "Seu produto possui alguma garantia agressiva, prova social forte ou bônus ancorados?",
     options: [
-      { id: 'aquisicao', text: 'Tenho tudo isso, mas vejo impacto direto na aquisição.' },
+      { id: 'aquisicao', text: 'Tenho tudo isso, mas não vejo impacto direto na aquisição.' },
       { id: 'conversao', text: 'Tenho, mas sinto que não estou comunicando bem. As pessoas ainda têm dúvidas.' },
       { id: 'nutricao', text: 'Eu mostro tudo isso para o lead, mas ele não tem o nível de consciência necessário pra valorizar ainda.' },
       { id: 'decisao', text: 'Não tenho e mesmo assim nossa taxa de fechamento é boa.' }
