@@ -264,12 +264,12 @@ const interactiveQuizData = [
     ]
   },
   {
-    q: "Para encerrar, como você avalia o pós-clique dos seus criativos campeões hoje?",
+    q: "Para encerrar, como você avalia o seu funil de vendas hoje?",
     options: [
-      { id: 'decisao', text: 'Todo o processo é bom, o anúncio funciona, o lead tem consciência, converte... e a plataforma declina a compra.' },
-      { id: 'conversao', text: 'O criativo é ótimo, mas quando chega no pitch, a promessa lá parece fraca e o lead não avança.' },
-      { id: 'aquisicao', text: 'Custo por clique maravilhoso, imagem linda, mas atrai completamente as pessoas erradas (falso positivo).' },
-      { id: 'nutricao', text: 'O clique funciona, entram na base, mas engajamento futuro é zero. Eu não consigo aquecer.' }
+      { id: 'decisao', text: 'Todo o processo é bom, os anúncios/conteúdos funcionam, o lead demonstra interesse, mas não conclui a compra.' },
+      { id: 'conversao', text: 'Atraímos leads com bom perfil, mas quando recebe a oferta simplesmente para de responder.' },
+      { id: 'aquisicao', text: 'Custo de captação alto atraindo leads desqualificados.' },
+      { id: 'nutricao', text: 'Recebemos muitos curiosos que fazem perguntas básicas para entender porque estão ali.' }
     ]
   }
 ];
