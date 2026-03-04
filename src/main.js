@@ -221,8 +221,8 @@ const interactiveQuizData = [
   {
     q: "Na sua estratégia de funil hoje, qual sua prioridade máxima?",
     options: [
-      { id: 'conversao', text: 'Melhorar o processo de vendas e aumentar a taxa de conversão.' },
-      { id: 'decisao', text: 'Fazer follow-up com quem já demonstrou interesse.' },
+      { id: 'conversao', text: 'Melhorar a condução do cliente ao longo do processo de venda até a decisão.' },
+      { id: 'decisao', text: 'Estruturar melhor o follow-up com leads que já demonstraram interesse.' },
       { id: 'aquisicao', text: 'Expandir os canais de aquisição e aumentar o volume de tráfego.' },
       { id: 'nutricao', text: 'Fortalecer minha marca pessoal com produção de conteúdo e relacionamento constante.' }
     ]
