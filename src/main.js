@@ -159,7 +159,7 @@ const interactiveQuizData = [
     q: "Que tipo de métrica você analisa com mais frequência (ou que mais te incomoda) atualmente?",
     options: [
       { id: 'decisao', text: 'Boletos gerados e não pagos / Abandonos de carrinho.' },
-      { id: 'conversao', text: 'Taxa de conversão da oferta ou da equipe comercial.' },
+      { id: 'conversao', text: 'Taxa de avanço no funil e conversão baixa.' },
       { id: 'nutricao', text: 'Quantidade de leads que chegam totalmente perdidos.' },
       { id: 'aquisicao', text: 'Custo de aquisição de leads.' }
     ]
