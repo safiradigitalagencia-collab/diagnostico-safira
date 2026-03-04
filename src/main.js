@@ -115,8 +115,8 @@ const interactiveQuizData = [
     options: [
       { id: 'decisao', text: '"Não finalizei por problemas com o cartão/checkout".' },
       { id: 'aquisicao', text: '"Não achei que era isso pago" ou "Achei que o serviço era grátis".' },
-      { id: 'conversao', text: '"Achei muito caro" ou "Vou pensar melhor" (Falta de valor percebido na oferta).' },
-      { id: 'nutricao', text: '"Não sei se isso serve para o meu momento atual" (Falta de conscientização prévia).' }
+      { id: 'conversao', text: '"Achei muito caro" ou "Vou pensar melhor".' },
+      { id: 'nutricao', text: '"Não sei se isso serve para o meu momento atual".' }
     ]
   },
   {
