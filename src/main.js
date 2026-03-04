@@ -185,10 +185,10 @@ const interactiveQuizData = [
   {
     q: "Como você lida com carrinhos abandonados e boletos não pagos?",
     options: [
-      { id: 'decisao', text: 'Tento chamar no WhatsApp, mas a taxa de recuperação é incrivelmente baixa (abysmal).' },
-      { id: 'conversao', text: 'Meu time tenta recuperar oferecendo desconto, porque os leads reclamam muito do preço na hora H.' },
-      { id: 'nutricao', text: 'Nem tento muito recuperar pois sei que eles não consumiram a oferta na íntegra para se convencer.' },
-      { id: 'aquisicao', text: 'O abandono é menor problema, meu grande desafio hoje é fazer as pessoas chegarem na etapa do carrinho.' }
+      { id: 'decisao', text: 'Tento chamar no WhatsApp, mas a taxa de recuperação é incrivelmente baixa.' },
+      { id: 'conversao', text: 'Meu time tenta recuperar oferecendo desconto.' },
+      { id: 'nutricao', text: 'Nem tento muito recuperar pois sei que eles não consumiram o produto/serviço.' },
+      { id: 'aquisicao', text: 'O abandono é menor problema, meu maior desafio é trazer novos clientes.' }
     ]
   },
   {
