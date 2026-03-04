@@ -237,12 +237,12 @@ const interactiveQuizData = [
     ]
   },
   {
-    q: "O último lançamento ou campanha de vendas que você fez teve qual característica marcante?",
+    q: "Sobre campanha de vendas, qual característica que mais se repete?",
     options: [
-      { id: 'aquisicao', text: 'A captação ficou cara antes mesmo de abrir o carrinho e o volume de leads foi muito abaixo do esperado.' },
-      { id: 'conversao', text: 'CPL foi ótimo, CPL show, mas a conversão em vendas (taxa de conversão do lançamento) foi decepcionante.' },
-      { id: 'nutricao', text: 'Trouxe muita gente, porém a taxa de comparecimento (ao vivo ou aulas) derreteu (drop-off alto).' },
-      { id: 'decisao', text: 'Bateu a meta de boletos e intenções, mas a inadimplência e abandono de carrinho massacraram meu ROI.' }
+      { id: 'aquisicao', text: 'Captação cara ou volume de leads muito abaixo do esperado.' },
+      { id: 'conversao', text: 'Muito valor percebido, entrega acima da média. Mas a taxa conversão foi decepcionante.' },
+      { id: 'nutricao', text: 'Público frio, que não comparece, não interage e não compra.' },
+      { id: 'decisao', text: 'Intençao de compra alta, mas pedem para parcelar no boleto ou PIX.' }
     ]
   },
   {
