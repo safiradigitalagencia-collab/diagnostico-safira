@@ -120,12 +120,12 @@ const interactiveQuizData = [
     ]
   },
   {
-    q: "Olhando para as campanhas ativas no Meta/Google Ads hoje, onde está seu maior esforço ou frustração?",
+    q: "Olhando para as campanhas ativas hoje, onde está seu maior esforço ou frustração?",
     options: [
-      { id: 'conversao', text: 'O Lead chega quente, clica na página de vendas, mas a taxa de conversão dela é baixíssima.' },
-      { id: 'nutricao', text: 'Tenho dificuldade em criar públicos de remarketing que de fato consumam meus conteúdos.' },
-      { id: 'decisao', text: 'As campanhas de abandono de carrinho têm as maiores taxas, mas recupero muito pouco.' },
-      { id: 'aquisicao', text: 'Trocar criativos e públicos toda semana porque as campanhas saturam absurdamente rápido.' }
+      { id: 'conversao', text: 'O Lead chega quente, é conduzido pelo comercial, mas a taxa de conversão é baixa.' },
+      { id: 'nutricao', text: 'Não saber se meu conteúdo está consciêntizando ou gerando valor da forma correta.' },
+      { id: 'decisao', text: 'O bandono de carrinho têm as maiores taxas e recupero muito pouco.' },
+      { id: 'aquisicao', text: 'Mexer no tráfego toda semana porque as campanhas saturam absurdamente rápido.' }
     ]
   },
   {
