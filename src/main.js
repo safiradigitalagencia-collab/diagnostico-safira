@@ -140,8 +140,8 @@ const interactiveQuizData = [
   {
     q: "Sua produção de conteúdo tem qual impacto prático hoje nas vendas?",
     options: [
-      { id: 'aquisicao', text: 'Gera muitas curtidas, mas não atrai seguidores qualificados para clicar nos meus links.' },
-      { id: 'decisao', text: 'Traz pessoas decididas, mas que acabam se confundindo muito com o meu processo de compra.' },
+      { id: 'aquisicao', text: 'Gera muitas curtidas, mas não atrai leads qualificados.' },
+      { id: 'decisao', text: 'Traz meu ICP decididas, mas  o problema aparece na hora de finalizar a compra.' },
       { id: 'conversao', text: 'As pessoas adoram, mas não enxergam a ponte entre o conteúdo grátis e minha oferta paga.' },
       { id: 'nutricao', text: 'Atrai um bom público inicial, mas eles não abrem os emails de aprofundamento ou lives fechadas.' }
     ]
