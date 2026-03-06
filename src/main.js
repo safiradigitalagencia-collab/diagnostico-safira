@@ -714,7 +714,9 @@ if (quizForm) {
         nome: userNameFinal,
         respostas: { ...userScores },
         score_total: { ...scores },
-        gargalo_identificado: worst
+        gargalo_identificado: worst,
+        analise: analysis,
+        consequencia: consequence
       });
 
       // Auto-gerar se for a última pergunta

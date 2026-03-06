@@ -19,7 +19,7 @@ const db = getFirestore(app);
  * Salva os dados do diagnóstico na coleção "diagnosticos" do Firestore.
  * Em caso de erro, apenas loga no console — nunca interrompe o fluxo do usuário.
  */
-export async function salvarDiagnostico({ nome, respostas, score_total, gargalo_identificado }) {
+export async function salvarDiagnostico({ nome, respostas, score_total, gargalo_identificado, analise, consequencia }) {
     try {
         await addDoc(collection(db, 'diagnosticos'), {
             tipo_diagnostico: 'funil_de_vendas',
@@ -27,6 +27,8 @@ export async function salvarDiagnostico({ nome, respostas, score_total, gargalo_
             respostas,
             score_total,
             gargalo_identificado,
+            analise,
+            consequencia,
             created_at: serverTimestamp()
         });
         console.log('[Firebase] Diagnóstico salvo com sucesso.');
