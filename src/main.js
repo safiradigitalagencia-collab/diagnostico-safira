@@ -1,4 +1,5 @@
 import './style.css'
+import { salvarDiagnostico } from './firebase.js'
 
 // Scroll-triggered fade-up animations
 const observer = new IntersectionObserver((entries) => {
@@ -707,6 +708,14 @@ if (quizForm) {
         consequence: consequence,
         actions: actions
       };
+
+      // Firebase — salvar diagnóstico (fire-and-forget, sem bloquear o fluxo)
+      salvarDiagnostico({
+        nome: userNameFinal,
+        respostas: { ...userScores },
+        score_total: { ...scores },
+        gargalo_identificado: worst
+      });
 
       // Auto-gerar se for a última pergunta
     }
